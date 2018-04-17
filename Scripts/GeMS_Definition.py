@@ -61,7 +61,7 @@ startDict = {
                                         ['GeoMaterial','String','NullsOK',defaultLength],
                                         ['GeoMaterialConfidence','String','NullsOK',defaultLength]],
  		   'DataSources':      [['Source','String','NoNulls',500],
-					['Notes','String','NullsOK',300],
+					['Notes','String','NullsOK',1048576],
                                         ['URL','String','NullsOK',300]],
                'Glossary':             [['Term','String','NoNulls',defaultLength],
 					['Definition','String','NoNulls',memoLength],
